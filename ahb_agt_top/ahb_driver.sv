@@ -15,7 +15,7 @@ class ahb_driver extends uvm_driver #(ahb_trxn);
         extern function void build_phase(uvm_phase phase);
         extern function void connect_phase(uvm_phase phase);
         extern task run_phase(uvm_phase phase);
-        extern task send_to_dut(ahb_xtns xtn);
+        extern task send_to_dut(ahb_trxn xtn);
 		
 endclass
 

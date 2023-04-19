@@ -15,6 +15,7 @@ class ahb_agent_config extends uvm_object;
 		
 endclass
 
+/////----Constructor----/////
 function ahb_agent_config::new(string name = "ahb_agent_config");
         super.new(name);
 endfunction: 
